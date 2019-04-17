@@ -1,0 +1,20 @@
+#Patrick Stumps
+#pstumps@ucsc.edu
+#CMPS 101
+#PA3
+#README for PA3. Matrix.java is a Matrix calculator and constructor for sparse Matrices. It uses List.java to
+#construct an array of lists that does not contain 0 entries (hence the name sparse.) Sparse.java is the 
+#top level program which takes two arguements specifing the input and output files then integers n, a, and b 
+#which specifies  the size of the matrices followed by the number of nonzero entries for each matrix respectively.
+#Sparse then prints A, B, (1.5)A, A+B, A+A, B-A, A-A, A transpose, A*B, and B squared to the specified output file.
+#MatrixTest.java is a test program for each function in Matrix.java.
+#ListTest.java is a test program for each function in List.java.
+#Makefile is a makefile for PA3.
+
+Sparse.java
+Matrix.java
+List.java
+MatrixTest.java
+ListTest.java
+Makefile
+README
