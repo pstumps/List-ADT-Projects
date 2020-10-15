@@ -71,28 +71,3 @@ public class Lex {
 		
     }
 }
-
-/*        for(int i=input.length-1; i>=1; i--){
-            String cur = input[i];
-            sorted.moveBack();
-
-            if(cur.compareTo(input[sorted.front()]) < 0){
-                //System.out.println("Comparing " +cur+ " to " +input[sorted.front()]+ " front list element " +sorted.front());
-                sorted.prepend(i);
-            }
-            else if(cur.compareTo(input[sorted.back()]) > 0){
-                //System.out.println("Comparing " +cur+ " to " +input[sorted.back()]+ " back list element " +sorted.back());
-                sorted.append(i);
-            }
-            else{
-                while(sorted.index() != 1 && cur.compareTo(input[sorted.get()]) <0 ){
-                    //System.out.println("Comparing " +cur+ " to " +input[sorted.get()]+ " input list element " +sorted.get());
-                    //int j=0;
-                    sorted.movePrev();
-                    //j++;
-                    //System.out.println("Moved forward " +j+ " times");
-                }
-                sorted.insertAfter(i);
-                //System.out.println("Inserted after " +i);
-            }
-        }*/
